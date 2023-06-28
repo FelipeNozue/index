@@ -1,0 +1,211 @@
+body{
+    background-color:white;
+    font-family:"Calibri", Times, serif;
+}
+
+#container{
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgb(255, 255, 255);
+}
+
+#topo-site{
+    width: 139%;
+    height:194px;
+    margin-right: -19.7%;
+    float:right;
+    background-color:rgb(4, 179, 144);
+}
+
+#logo{
+    width:280px;
+    height:80px;
+    float:left;
+    margin-left:40px;
+    margin-top:40px;
+    background-color:rgb(0, 255, 229);
+    border: 1px solid rgb(13, 204, 214);
+}
+
+#rede-sociais{
+    width:50px;
+    height:50px;
+    float:right;
+    margin-right:40px;
+    margin-top:70px;
+    background-color:rgb(31, 202, 188);
+}
+
+.menu_simple{
+    width:100%;
+    height:20%;
+    float:left;
+    margin-top:2%;
+    background-color:black;
+}
+
+.menu_simple ul {
+    margin:0%;
+    padding:-1%;
+    float:center;
+}
+
+.menu_simple ul li {
+    display:inline;
+}
+
+.menu_simple ul li a {
+    float:left;
+    text-decoration:none;
+    color:white;padding:10.5px11px;
+    margin-left:180px;background-color:black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.menu_simple ul li a:visited{
+    color:white;
+}
+
+.menu_simple ul li a:hover{
+    color:white;
+    background-color:#000000;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-filter: drop-shadow(2px 15px 5px rgba(9, 211, 225, 0.5) );
+    filter: drop-shadow(2px 15px 5px rgba(4, 216, 224, 0.5) );
+}
+
+#slide{
+    margin-top:1%;
+    flex-direction: column;
+    justify-content: center;
+    float:left;
+    width: 30%;
+    background-color:rgb(255, 255, 255);
+}
+
+.caixa-conteudo{
+    width:30%;
+    height:250px;
+    float: left;
+    margin-left:20px;
+    padding-left:20px;
+    margin-top:40px;
+    background-color:rgb(49, 194, 146)
+}
+
+.caixa-conteudoh3{
+    color:white;
+    margin-left:30px
+}
+
+.caixa-conteudo ul{
+    list-style:none;
+    float:left;
+    color:white;
+    margin-top:-10px;
+    margin-left:10px;
+}
+
+.caixa-conteudo ul li{
+    margin-top:10px;
+}
+
+.caixa-conteudo li a{
+    text-decoration:none;
+    margin-right:10px;
+    color:rgb(255, 255, 255);
+}
+
+#rodape-site{
+    width:100%;
+    height:100%;
+    float:left;
+    background-color:rgb(60, 59, 59);
+    margin-top:0px;
+}
+
+
+#autor-site{
+    width:100%;
+    height:40px;
+    background-color:rgb(0, 128, 102);
+    float:left;
+    text-align:center;
+    padding-top:10px;
+    color:white; 
+}
+
+#sobre{
+    width:960px;
+    height:400px;
+    background-color:white;
+    float:left;
+}
+
+#foto-sobre{
+    width:400px;
+    height:350px;
+    float:left;
+    margin-left:60px;
+    margin-top:25px;
+}
+
+#texto-sobre{
+    width:400px;
+    height:350px;
+    float:left;
+    margin-left:40px;
+    margin-top:25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1110px;
+    width: 42%;
+    float: right;
+    align-items: stretch;
+}
+
+.container div{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container .box1{
+    flex-basis: 30%;
+    width: 100%;
+}
+
+.container .box2{
+    flex-basis: 30%;
+    width: 100%;
+}
+
+.container .box3{
+    flex-basis: 30%;
+    width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    .rodape-site { align-items: stretch; flex-direction: column; }
+
+}
+
+
+
+
+   
+
+
+
+
+
+
+
+
